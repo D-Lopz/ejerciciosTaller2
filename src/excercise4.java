@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class excercise4 {
 
     public static String invertirCadena(String cadena) {
