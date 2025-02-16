@@ -1,10 +1,8 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class excercise3 {
     public static double calcularPromedio(List<Integer> lista) {
-        if (lista.isEmpty()) return 0; // Evita división por 0
-
+        if (lista.isEmpty()) return 0;
         double suma = 0;
 
         for (int num : lista) {
