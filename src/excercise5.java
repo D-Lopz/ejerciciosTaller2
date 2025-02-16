@@ -12,6 +12,6 @@ public class excercise5 {
     public static void main(String[] args) {
         List<Integer> numeros = List.of(1, 2, 2, 3, 4, 4, 5);
 
-        System.out.println(eliminarDuplicados(numeros));
+        System.out.println("La lista es: " + eliminarDuplicados(numeros));
     }
 }
